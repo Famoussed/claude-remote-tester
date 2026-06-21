@@ -1,0 +1,19 @@
+{
+  "name": "remote-tester",
+  "version": "1.0.0",
+  "description": "Telefondan baglanan Claude session'larin manuel UI testlerini Playwright ile otomatik yapip sonuclari (screenshot + video + HTML rapor) Telegram'a gonderen merkezi tester tool.",
+  "type": "module",
+  "bin": {
+    "rt": "./bin/rt.js",
+    "remote-test": "./bin/rt.js"
+  },
+  "scripts": {
+    "test:self": "node ./bin/rt.js run https://example.com --steps \"[{\\\"screenshot\\\":\\\"anasayfa\\\"}]\" --no-telegram"
+  },
+  "dependencies": {
+    "playwright": "^1.61.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

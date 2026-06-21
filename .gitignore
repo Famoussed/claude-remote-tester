@@ -1,0 +1,22 @@
+# Bagimliliklar
+node_modules/
+
+# Gizli bilgiler — ASLA commit etme
+.env
+.env.local
+.env.*.local
+*.token
+secrets.json
+
+# Test ciktilari (screenshot/video/trace kullanici verisi icerebilir)
+runs/
+!runs/.gitkeep
+
+# Loglar
+*.log
+
+# Isletim sistemi / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
