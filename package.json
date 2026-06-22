@@ -1,8 +1,23 @@
 {
-  "name": "remote-tester",
+  "name": "claude-remote-tester",
   "version": "1.0.0",
   "description": "Telefondan baglanan Claude session'larin manuel UI testlerini Playwright ile otomatik yapip sonuclari (screenshot + video + HTML rapor) Telegram'a gonderen merkezi tester tool.",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Famoussed/claude-remote-tester.git"
+  },
+  "keywords": [
+    "claude",
+    "playwright",
+    "telegram",
+    "testing",
+    "ui-testing",
+    "remote",
+    "screenshot",
+    "automation"
+  ],
   "bin": {
     "rt": "./bin/rt.js",
     "remote-test": "./bin/rt.js"
